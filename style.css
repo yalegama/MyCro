@@ -4,62 +4,82 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #fff;
-  color: #000;
   font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-}
-/* logo style */
-.logo {
-  color: rgb(255, 94, 0);
-  font-size: 3rem;
-}
-.cro {
-  color: blue;
-  font-size: 2.5rem;
-}
-.main_nav a {
-  text-decoration: none;
-}
-.main_nav ul {
-  list-style: none;
-}
-.container {
-  width: 90%;
-  max-width: 1100px;
+  width: 70%;
   margin: auto;
 }
 
-/* Nav  */
-.main_nav {
+/* Logo  */
+.logo h1 {
+  color: chocolate;
+}
+.logo .my {
+  color: darkblue;
+  font-size: 2.5rem;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+nav {
   display: flex;
-  align-items: center;
-  padding: 20px 0;
   justify-content: space-between;
 }
-.main_nav ul {
-  display: flex;
-}
 .main_menu {
-  display: flex;
+  padding: 25px;
   flex: 1;
 }
+.main_menu a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
 .main_menu li {
-  padding: 0 10px;
-  margin-left: 20px;
-  margin-top: 15px;
+  display: inline;
+}
+.right_menu {
+  padding: 25px;
 }
 .right_menu li {
-  padding: 0 10px;
-  margin-top: 15px;
+  display: inline;
+  padding: 10px;
 }
-.main_menu li a:hover {
-  font-weight: bold;
+.right_menu a {
+  color: black;
+}
+.right_menu a:hover {
+  color: blue;
   border-bottom: blue 2px solid;
 }
-.right_menu li a:hover {
+.main_menu a:hover {
+  color: blue;
   border-bottom: blue 2px solid;
 }
 
-/* Show case Area Section */
+/* Bosy showcase area styling */
+.showcase {
+  display: flex;
+  background: url("./images/slide1.png") no-repeat center center/cover;
+  width: 100%;
+  height: 500px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+.shop {
+  padding: 12px;
+  background-color: black;
+  color: azure;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+.showcase h1,
+p {
+  margin-bottom: 10px;
+}
+.shop {
+  margin-top: 20px;
+}
