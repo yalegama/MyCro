@@ -41,3 +41,25 @@ body {
 .main_nav ul {
   display: flex;
 }
+.main_menu {
+  display: flex;
+  flex: 1;
+}
+.main_menu li {
+  padding: 0 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.right_menu li {
+  padding: 0 10px;
+  margin-top: 15px;
+}
+.main_menu li a:hover {
+  font-weight: bold;
+  border-bottom: blue 2px solid;
+}
+.right_menu li a:hover {
+  border-bottom: blue 2px solid;
+}
+
+/* Show case Area Section */
