@@ -83,3 +83,54 @@ p {
 .shop {
   margin-top: 20px;
 }
+
+/* Card 1 Area Section */
+
+.card1Area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.card h1 {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+.card img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.card a {
+  text-decoration: none;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0067b8;
+}
+.card a:hover {
+  color: red;
+}
+
+/* Xbox game pass area section */
+.xbox {
+  background: url(./images/xbox.png) no-repeat center center/cover;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+}
+.xbox h1,
+.xbox p,
+.xbox a {
+  width: 40%;
+  padding: 50px 0 0 30px;
+  text-decoration: none;
+}
+.xbox a {
+  color: #0067b8;
+  font-weight: bold;
+}
+.xbox a:hover {
+  color: red;
+}
